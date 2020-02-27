@@ -1,0 +1,51 @@
+/* selector {
+    property: value;
+} */
+
+* {
+    text-align: center;
+}
+
+body {
+    background-image: url(brave_4-wallpaper-2560x1440.jpg);
+    background-size: cover;
+}
+h2 p:hover {
+    color: rgb(253, 253, 253);
+    text-align: center;
+    border: 5px solid blue;
+    cursor: pointer;
+}
+p {
+    color: deeppink;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;           
+}
+
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    text-align: right;  
+    padding: 5px 20px 5px 20px;
+    color: rgb(235, 6, 6);
+    margin: 0px 20px 0px 20px;
+}
+
+p {
+    font-size:20px;
+}
+
+span {
+    font-size: 2em;
+}
